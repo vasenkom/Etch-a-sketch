@@ -15,6 +15,37 @@
     margin-top: 15px;
     width: 50%;
 }
-.description h4 {
-    text-align: center;  
+.description h5 {
+    text-align: center; 
+    font-size: 15px; 
+}
+.main {
+    margin-top: 25px;
+}
+.size-selection, .settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.size-selection input {
+    width: 50px;
+    border: 1px solid black;
+}
+.size-selection button, .settings button {
+    background-color: rgba(241, 240, 240, 0.724);
+    border: 1px solid black;
+    padding: 0 3px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.size-selection button:hover, .settings button:hover {
+    background-color: rgba(218, 216, 216, 0.724);
+}
+.settings {
+    margin-top: 15px;
+}
+.settings button {
+    padding: 2px 5px;
 }

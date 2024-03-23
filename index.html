@@ -12,22 +12,25 @@
     <div class="header">
         <div class="title"><h1>ETCH-A-SKETCH</h1></div>
         <div class="description">
-            <h4>Etch-a-Scratch is your digital canvas, allowing you to create and express freely. 
+            <h5>Etch-a-Scratch is your digital canvas, allowing you to create and express freely. 
             Simply select your desired drawing board size, pick your preferred color, 
-            and immerse yourself in a world of endless creativity.</h4>
+            and immerse yourself in a world of endless creativity.</h5>
         </div>
     </div>
     <div class="main">
-        <div class="size-selection">
-            <input type="text" name="height" id="height">
-            <p>x</p>
-            <input type="text" name="width" id="width">
-            <button type="button" id="sizeSetter">OK</button>
-        </div>
-        <div class="settings">
-            <button type="button" id="black">Black</button>
-            <button type="button" id="random">Random</button>
-            <button type="reset">Reset</button>
+        <div class="allSettings">
+            <div class="size-selection">
+                <p>Size:</p>
+                <input type="number" name="height" id="height" max="100">
+                <p>x</p>
+                <input type="number" name="width" id="width" max="100">
+                <button type="button" id="sizeSetter">OK</button>
+            </div>
+            <div class="settings">
+                <button type="button" id="black">Black</button>
+                <button type="button" id="random">Random</button>
+                <button type="reset">Reset</button>
+            </div>
         </div>
         <div class="canvas" id="canvas"></div>
     </div>
