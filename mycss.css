@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"DM Sans", sans-serif;;
+}
+.header, .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.description {
+    margin-top: 15px;
+    width: 50%;
+}
+.description h4 {
+    text-align: center;  
+}
