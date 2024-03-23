@@ -4,7 +4,7 @@ Welcome to ETCH-A-SKETCH! This is a simple web-based drawing application designe
 
 ## Demo
 
-You can view a live demo of ETCH-A-SKETCH [here](https://raw.githack.com/vasenkom/8---etch-a-sketch/main/index.html).
+You can view a live demo of ETCH-A-SKETCH [here](https://raw.githack.com/vasenkom/Etch-a-sketch/main/index.html).
 
 ## Features
 
